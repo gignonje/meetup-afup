@@ -1,6 +1,8 @@
 Symfony Demo Application
 ========================
 
+[![Codeship Status for gignonje/meetup-afup](https://app.codeship.com/projects/f9fd62c0-1139-0137-0699-4e821a41893e/status?branch=master)](https://app.codeship.com/projects/327247)
+
 The "Symfony Demo Application" is a reference application created to show how
 to develop applications following the [Symfony Best Practices][1].
 

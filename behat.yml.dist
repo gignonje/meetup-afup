@@ -1,0 +1,15 @@
+default:
+    suites:
+        default:
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - App\Tests\Behat\DemoContext
+                - App\Tests\Behat\ReloadFixturesContext
+
+    extensions:
+        FriendsOfBehat\SymfonyExtension: ~
+        Behat\MinkExtension:
+            base_url: http://127.0.0.1
+            sessions:
+                symfony:
+                    symfony: ~
